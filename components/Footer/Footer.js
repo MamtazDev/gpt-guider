@@ -7,7 +7,7 @@ import twitterIcon from "@/assets/icons/Twitter.svg";
 
 const Footer = () => {
   return (
-    <footer className="container">
+    <footer className="container pb-[90px]">
       <div className="grid grid-cols-9  border-b border-[#515361] pb-[40px]">
         <div className="col-span-2">
           <img src={footerLogo.src} alt="" />

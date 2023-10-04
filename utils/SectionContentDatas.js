@@ -2,6 +2,10 @@ import browsingImage from "@/assets/images/browsingPlugin.svg";
 import gptProfImage from "@/assets/images/GptProf.svg";
 import documentImage from "@/assets/images/documentOcr.svg";
 import chatWithPdfImage from "@/assets/images/chatWIthPdf.svg";
+import audioVideoImage from "@/assets/images/audioAndVideo.svg";
+import diagramImage from "@/assets/images/diagramPlugin.svg";
+import youtubeVideoImage from "@/assets/images/youtubeVideo.svg";
+import questionAnswerImage from "@/assets/images/questionAnswer.svg";
 
 export const browsingPlugin = {
   image: browsingImage.src,
@@ -71,5 +75,53 @@ export const chatWithPdf = {
       subHeader:
         "Quickly extract text from images or scanned documents shared by users, reducing manual data entry. \n No need to write long question just scan or take photo of your question and get answers quickly.",
     },
+  ],
+};
+
+export const audioVideo = {
+  image: audioVideoImage.src,
+  title: "Audio & video Transcription and summarizing",
+  contents: [
+    "upload an audio or Mp4 file and get the transcribed text with a summary.",
+    "Upload a video and get the transcribed text with a summary.",
+  ],
+};
+
+export const diagramPlugin = {
+  image: diagramImage.src,
+  title: "Diagram plugin",
+  contents: [
+    {
+      header: "Enhanced Understanding:",
+      subHeader:
+        "Visual representation of information helps students understand complex topics and see the bigger picture.",
+    },
+    {
+      header: "Efficient Study:",
+      subHeader:
+        "Instead of manually creating mind maps, students can save time by letting the AI generate initial maps which they can then customize.",
+    },
+    {
+      header: "Memory Retention:",
+      subHeader:
+        "Visual aids like mind maps and diagrams are known to improve memory retention, making it easier for students to recall information during exams.",
+    },
+  ],
+};
+
+export const youtubeVideo = {
+  image: youtubeVideoImage.src,
+  title: "YouTube video Transcription and summarizing",
+  contents: [
+    "Transcribe and summarize you tube videos just by provide URL of video. ",
+    "Save your time and effort and say good bye to manual transcription and time-consuming video content analysis.",
+  ],
+};
+
+export const questionAnswer = {
+  image: questionAnswerImage.src,
+  title: "Questions & Answers Generator",
+  contents: [
+    "generates diverse test questions for self-assessment purposes. These questions cover various topics, ensuring comprehensive understanding and preparation for exams or assessments.:",
   ],
 };
