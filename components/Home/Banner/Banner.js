@@ -27,29 +27,29 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex gap-[12px] items-center">
-        <div class="flex -space-x-[16px]">
+        <div className="flex -space-x-[16px]">
           <img
-            class="inline-block h-[36px] w-[36px] rounded-full "
+            className="inline-block h-[36px] w-[36px] rounded-full "
             src={avatar1.src}
             alt=""
           />
           <img
-            class="inline-block h-[36px] w-[36px] rounded-full "
+            className="inline-block h-[36px] w-[36px] rounded-full "
             src={avatar2.src}
             alt=""
           />
           <img
-            class="inline-block h-[36px] w-[36px] rounded-full "
+            className="inline-block h-[36px] w-[36px] rounded-full "
             src={avatar3.src}
             alt=""
           />
           <img
-            class="inline-block h-[36px] w-[36px] rounded-full "
+            className="inline-block h-[36px] w-[36px] rounded-full "
             src={avatar4.src}
             alt=""
           />
           <img
-            class="inline-block h-[36px] w-[36px] rounded-full "
+            className="inline-block h-[36px] w-[36px] rounded-full "
             src={avatar5.src}
             alt=""
           />
