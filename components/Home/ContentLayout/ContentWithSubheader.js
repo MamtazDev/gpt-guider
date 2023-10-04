@@ -3,7 +3,7 @@ import bulletPoint from "@/assets/icons/bulletPoint.svg";
 
 const ContentWithSubheader = ({ data }) => {
   return (
-    <section className="container grid grid-cols-2 gap-[33px] mb-[120px] items-center">
+    <section className="container grid grid-cols-1 md:grid-cols-2 gap-[33px] mb-[120px] items-center">
       <div>
         <h3 className="text-[36px] font-[700] mb-[24px]">{data.title}</h3>
         {data?.contents.map((item, idx) => (

@@ -3,7 +3,7 @@ import bulletPoint from "@/assets/icons/bulletPoint.svg";
 
 const ContentWithOutSubheder = ({ data, styles }) => {
   return (
-    <section className="container grid grid-cols-2  gap-[33px] items-center my-[120px]">
+    <section className="container grid grid-cols-1 md:grid-cols-2  gap-[33px] items-center my-[120px]">
       {!styles && (
         <div>
           <img src={data.image} alt="" />

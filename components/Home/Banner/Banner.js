@@ -9,7 +9,7 @@ import avatar5 from "@/assets/images/Avatar5.png";
 const Banner = () => {
   return (
     <section className="container mt-[119px] mb-[193px]">
-      <div className="flex ">
+      <div className="flex flex-col md:flex-row gap-[24px]">
         <div>
           <h3 className="text-[36px] font-[700]">
             Save Your Time <span className="andText">&</span> Study Faster
@@ -26,7 +26,7 @@ const Banner = () => {
           <img src={bannerImage.src} alt="" />
         </div>
       </div>
-      <div className="flex gap-[12px] items-center">
+      <div className="flex gap-[12px] items-center mt-[60px]">
         <div className="flex -space-x-[16px]">
           <img
             className="inline-block h-[36px] w-[36px] rounded-full "

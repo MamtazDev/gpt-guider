@@ -73,7 +73,7 @@ export const chatWithPdf = {
     {
       header: "OCR Feature: save your time and effort",
       subHeader:
-        "Quickly extract text from images or scanned documents shared by users, reducing manual data entry. \n No need to write long question just scan or take photo of your question and get answers quickly.",
+        "Quickly extract text from images or scanned documents shared by users, reducing manual data entry. No need to write long question just scan or take photo of your question and get answers quickly.",
     },
   ],
 };
