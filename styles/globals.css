@@ -26,3 +26,21 @@ body {
   border-radius: 50px;
   background: linear-gradient(137deg, #00b6bd 5.28%, #acffad 95.01%);
 }
+.andText {
+  background: linear-gradient(148deg, #2cb49f -24.15%, #39f29b 84.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.userText {
+  background: linear-gradient(164deg, #00b6bd 41.09%, #acffad 78.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
