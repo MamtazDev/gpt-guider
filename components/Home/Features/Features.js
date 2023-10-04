@@ -1,13 +1,13 @@
 import React from "react";
-import searchIcon from "../../../assets/icons/searchIcon.svg";
-import documentIcon from "../../../assets/icons/documentIcon.svg";
-import diagramIcon from "../../../assets/icons/diagramIcon.svg";
-import micIcon from "../../../assets/icons/micIcon.svg";
-import palyIcon from "../../../assets/icons/palyIcon.svg";
-import pdfIcon from "../../../assets/icons/pdfIcon.svg";
-import videoIcon from "../../../assets/icons/videoIcon.svg";
-import testIcon from "../../../assets/icons/testIcon.svg";
-import peopleIcon from "../../../assets/icons/peopleIcon.svg";
+import searchIcon from "../../../assets/icons/searchIcon.png";
+import documentIcon from "../../../assets/icons/documentIcon.png";
+import diagramIcon from "../../../assets/icons/diagramIcon.png";
+import micIcon from "../../../assets/icons/micIcon.png";
+import palyIcon from "../../../assets/icons/palyIcon.png";
+import pdfIcon from "../../../assets/icons/pdfIcon.png";
+import videoIcon from "../../../assets/icons/videoIcon.png";
+import testIcon from "../../../assets/icons/testIcon.png";
+import peopleIcon from "../../../assets/icons/peopleIcon.png";
 import FeaturesCard from "./FeaturesCard";
 
 const featuresData = [
@@ -70,7 +70,7 @@ const Features = () => {
       <h2 className="text-center text-[36px] font-[700] mb-[120px]">
         Features
       </h2>
-      <div className="grid grid-cols-3 gap-[40px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px]">
         {featuresData.map((item, idx) => (
           <FeaturesCard key={idx} item={item} />
         ))}

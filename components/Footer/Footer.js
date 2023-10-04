@@ -8,31 +8,37 @@ import twitterIcon from "@/assets/icons/Twitter.svg";
 const Footer = () => {
   return (
     <footer className="container pb-[90px]">
-      <div className="grid grid-cols-9  border-b border-[#515361] pb-[40px]">
-        <div className="col-span-2">
+      <div className="grid md:grid-cols-6 lg:grid-cols-9  border-b border-[#515361] pb-[40px]">
+        <div className="md:col-span-2 md:row-span-2 mb-[20px] lg:mb-0">
           <img src={footerLogo.src} alt="" />
         </div>
-        <div className="flex flex-col gap-[24px] col-span-2">
-          <Link href="/">Home</Link>
+        <div className="flex flex-col gap-[24px] md:col-span-2 mb-[20px] lg:mb-0">
+          <Link href="/" className="text-[18px] font-[700]">
+            Home
+          </Link>
           <Link href="/">Features</Link>
           <Link href="/">Pricing</Link>
           <Link href="/">About us</Link>
         </div>
-        <div className="flex flex-col gap-[24px] col-span-2">
-          <Link href="/">Terms</Link>
+        <div className="flex flex-col gap-[24px] md:col-span-2 mb-[20px] lg:mb-0">
+          <Link href="/" className="text-[18px] font-[700]">
+            Terms
+          </Link>
           <Link href="/">Privacy Policy</Link>
           <Link href="/">Terms and Conditions</Link>
           <Link href="/">Copyright Policy</Link>
           <Link href="/">Security</Link>
         </div>
-        <div className="flex flex-col gap-[24px] col-span-2">
-          <Link href="/">Support</Link>
+        <div className="flex flex-col gap-[24px] md:col-span-2 mb-[20px] lg:mb-0">
+          <Link href="/" className="text-[18px] font-[700]">
+            Support
+          </Link>
           <Link href="/">FAQs</Link>
           <Link href="/">Contact us</Link>
           <Link href="/">Help</Link>
         </div>
         <div>
-          <p className="mb-[24px]">Follow us</p>
+          <p className="mb-[24px] text-[18px] font-[700]">Follow us</p>
           <div className="flex gap-[12px]">
             <a href="https://twitter.com/" target="_blank">
               <img src={twitterIcon.src} alt="" />
