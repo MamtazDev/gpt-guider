@@ -95,7 +95,7 @@ body {
 }
 
 .bannerBlurContainer {
-  background-image: url("/images/upSideBlur.png");
+  background-image: url("/upSideBlur.png");
   background-repeat: no-repeat;
   background-position: bottom center;
 }
