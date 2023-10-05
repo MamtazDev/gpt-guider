@@ -95,7 +95,7 @@ body {
 }
 
 .bannerBlurContainer {
-  background-image: url("/images/upSideBlur.png");
+  background-image: url("/upSideBlur.png");
   background-repeat: no-repeat;
   background-position: bottom center;
 }
@@ -201,4 +201,8 @@ body {
   content: url("/sectionLeftSideBlur.png");
   top: -240px;
   left: 0;
+}
+
+.focusSubScriptionCard {
+  background: linear-gradient(137deg, #00b6bd 5.28%, #acffad 95.01%);
 }
