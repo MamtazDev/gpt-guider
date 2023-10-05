@@ -95,34 +95,34 @@ body {
 }
 
 .bannerBlurContainer {
-  background-image: url("@/assets/images/upSideBlur.png");
+  background-image: url("../assets/images/upSideBlur.png");
   background-repeat: no-repeat;
   background-position: bottom center;
 }
 
 .bannerBlurContainer::before {
   position: absolute;
-  content: url("@/assets/images/leftSideBlur.png");
+  content: url("../assets/images/leftSideBlur.png");
   top: 0;
   left: 0;
   z-index: -1;
 }
 .bannerBlurContainer::after {
   position: absolute;
-  content: url("@/assets/images/rightSideBlur.png");
+  content: url("../assets/images/rightSideBlur.png");
   top: 0;
   right: 0;
   z-index: -1;
 }
 
 .featuresContainer {
-  background-image: url("@/assets/images/downSideBlur.png");
+  background-image: url("../assets/images/downSideBlur.png");
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .broserPluginContainer {
-  background-image: url("@/assets/images/rightSideBlur.png");
+  background-image: url("../assets/images/rightSideBlur.png");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -135,13 +135,13 @@ body {
   /* background-image: url("../assets/images/leftSideBlur.png");
   background-repeat: no-repeat;
   background-position: left; */
-  content: url("@/assets/images/sectionLeftSideBlur.png");
+  content: url("../assets/images/sectionLeftSideBlur.png");
   top: -240px;
   left: 0;
 }
 
 .documentsOcrContainer {
-  background-image: url("@/assets/images/rightSideBlur.png");
+  background-image: url("../assets/images/rightSideBlur.png");
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -152,7 +152,7 @@ body {
 
 .chatWithPdfContainer::before {
   position: absolute;
-  content: url("@/assets/images/sectionLeftSideBlur.png");
+  content: url("../assets/images/sectionLeftSideBlur.png");
   left: 0;
   top: -120px;
 }
@@ -163,7 +163,7 @@ body {
 
 .audioVideoContainer::before {
   position: absolute;
-  content: url("@/assets/images/rightSideBlur.png");
+  content: url("../assets/images/rightSideBlur.png");
   top: -120px;
   right: 0;
 }
@@ -173,7 +173,7 @@ body {
 }
 .diagramPluginContainer::before {
   position: absolute;
-  content: url("@/assets/images/sectionLeftSideBlur.png");
+  content: url("../assets/images/sectionLeftSideBlur.png");
   top: -240px;
   left: 0;
 }
@@ -184,21 +184,21 @@ body {
 
 .youtubeVideoContainer::before {
   position: absolute;
-  content: url("@/assets/images/rightSideBlur.png");
+  content: url("../assets/images/rightSideBlur.png");
   top: -240px;
   right: 0;
 }
 .questionAnswerContainer {
   position: relative;
   padding-bottom: 240px;
-  background-image: url("@/assets/images/rightSideBlur.png");
+  background-image: url("../assets/images/rightSideBlur.png");
   background-repeat: no-repeat;
   background-position: right bottom -50%;
 }
 
 .questionAnswerContainer::before {
   position: absolute;
-  content: url("@/assets/images/sectionLeftSideBlur.png");
+  content: url("../assets/images/sectionLeftSideBlur.png");
   top: -240px;
   left: 0;
 }
