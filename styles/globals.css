@@ -202,3 +202,7 @@ body {
   top: -240px;
   left: 0;
 }
+
+.focusSubScriptionCard {
+  background: linear-gradient(137deg, #00b6bd 5.28%, #acffad 95.01%);
+}

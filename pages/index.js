@@ -14,10 +14,11 @@ import {
 } from "@/utils/SectionContentDatas";
 import ContentWithOutSubheder from "@/components/Home/ContentLayout/ContentWithOutSubheder";
 import ContentWithSubheader from "@/components/Home/ContentLayout/ContentWithSubheader";
+import Main from "@/Layouts/Main";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Banner />
@@ -54,4 +55,7 @@ export default function Home() {
       />
     </>
   );
-}
+};
+Home.PageLayout = Main;
+
+export default Home;
