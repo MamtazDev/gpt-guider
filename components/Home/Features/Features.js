@@ -66,7 +66,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <section className="container mb-[140px]">
+    <section className="container mb-[140px] featuresContainer pt-[120px]">
       <h2 className="text-center text-[36px] font-[700] mb-[120px]">
         Features
       </h2>
