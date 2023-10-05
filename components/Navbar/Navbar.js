@@ -14,8 +14,8 @@ const Navbar = () => {
         </div>
         <div className="lg:flex gap-[32px] text-[16px] font-[500] hidden">
           <Link href="/">Home</Link>
-          <Link href="/">Features</Link>
-          <Link href="/">Pricing</Link>
+          <Link href="/dashboard">Features</Link>
+          <Link href="/subscription">Pricing</Link>
           <Link href="/">About us</Link>
         </div>
         <div className="lg:flex gap-[32px] hidden">
@@ -62,8 +62,8 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col gap-[32px] text-[16px] font-[500] items-center">
           <Link href="/">Home</Link>
-          <Link href="/">Features</Link>
-          <Link href="/">Pricing</Link>
+          <Link href="/dashboard">Features</Link>
+          <Link href="/subscription">Pricing</Link>
           <Link href="/">About us</Link>
 
           <button className="singInButton px-[32px] py-[14px] max-w-[120px] ">
