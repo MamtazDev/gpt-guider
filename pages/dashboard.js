@@ -9,6 +9,7 @@ import pdfIcon from "@/assets/icons/pdfIcon.png";
 import videoIcon from "@/assets/icons/videoIcon.png";
 import testIcon from "@/assets/icons/testIcon.png";
 import peopleIcon from "@/assets/icons/peopleIcon.png";
+import Main from "@/Layouts/Main";
 
 const featuresData = [
   {
@@ -37,18 +38,19 @@ const featuresData = [
     title: "YouTube video",
     description:
       "Transcribe and summarize YouTube videos just by providing the URL of the video.",
-    link: "/",
+    link: "/dashboard",
   },
   {
     icon: diagramIcon.src,
     title: "Diagram Plugin",
     description: "Create and edit diagrams. Build mind map based on your data.",
-    link: "/",
+    link: "/dashboard",
   },
   {
     icon: documentIcon.src,
     title: "Document OCR AI",
     description: "Convert scanned and handwritten PDFs into digital formats.",
+    link: "/dashboard",
   },
   {
     icon: micIcon.src,
@@ -83,5 +85,7 @@ const DashboardPage = () => {
     </section>
   );
 };
+
+DashboardPage.PageLayout = Main;
 
 export default DashboardPage;
