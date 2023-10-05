@@ -22,14 +22,36 @@ export default function Home() {
     <>
       <Banner />
       <Features />
-      <ContentWithOutSubheder data={browsingPlugin} />
-      <ContentWithSubheader data={gptProf} />
-      <ContentWithOutSubheder data={documentOcr} />
-      <ContentWithSubheader data={chatWithPdf} />
-      <ContentWithOutSubheder data={audioVideo} />
-      <ContentWithSubheader data={diagramPlugin} />
-      <ContentWithOutSubheder data={youtubeVideo} />
-      <ContentWithOutSubheder data={questionAnswer} styles={"reverse"} />
+      <ContentWithOutSubheder
+        data={browsingPlugin}
+        classNames={"broserPluginContainer"}
+      />
+      <ContentWithSubheader data={gptProf} classNames={"gptProfContainer"} />
+      <ContentWithOutSubheder
+        data={documentOcr}
+        classNames={"documentsOcrContainer"}
+      />
+      <ContentWithSubheader
+        data={chatWithPdf}
+        classNames={"chatWithPdfContainer"}
+      />
+      <ContentWithOutSubheder
+        data={audioVideo}
+        classNames={"audioVideoContainer"}
+      />
+      <ContentWithSubheader
+        data={diagramPlugin}
+        classNames={"diagramPluginContainer"}
+      />
+      <ContentWithOutSubheder
+        data={youtubeVideo}
+        classNames={"youtubeVideoContainer"}
+      />
+      <ContentWithOutSubheder
+        data={questionAnswer}
+        styles={"reverse"}
+        classNames={"questionAnswerContainer"}
+      />
     </>
   );
 }
