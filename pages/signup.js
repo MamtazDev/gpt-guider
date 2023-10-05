@@ -7,7 +7,7 @@ const SignUpPage = () => {
   return (
     <section className="h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7">
       <div className="lg:col-span-4 hidden md:flex justify-center items-center">
-        <div>
+        <div className="px-[40px]">
           <img src={logo.src} alt="" className="w-[250px] mb-5" />
           <p className="text-lg mb-2">powerd by Gpt-3.5 & GPT-4</p>
           <p className="text-lg mb-2">
@@ -17,7 +17,7 @@ const SignUpPage = () => {
         </div>
       </div>
       <div className="bg-white lg:col-span-3 flex justify-center items-center">
-        <div>
+        <div className="px-[40px]">
           <form>
             <h4 className="text-black text-3xl font-bold mb-[40px]">
               Please SignUp!
