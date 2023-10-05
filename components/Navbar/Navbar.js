@@ -20,10 +20,10 @@ const Navbar = () => {
         </div>
         <div className="lg:flex gap-[32px] hidden">
           <button className="singInButton px-[32px] py-[14px]">
-            <Link href="/">Sign in</Link>
+            <Link href="/login">Sign in</Link>
           </button>
           <button className="signUpButton px-[32px] py-[14px]">
-            <Link href="/">Sign up</Link>
+            <Link href="/signup">Sign up</Link>
           </button>
         </div>
         {/* mobile navbar button */}
@@ -67,10 +67,10 @@ const Navbar = () => {
           <Link href="/">About us</Link>
 
           <button className="singInButton px-[32px] py-[14px] max-w-[120px] ">
-            <Link href="/">Sign in</Link>
+            <Link href="/login">Sign in</Link>
           </button>
           <button className="signUpButton px-[32px] py-[14px] max-w-[125px]">
-            <Link href="/">Sign up</Link>
+            <Link href="/signup">Sign up</Link>
           </button>
         </div>
       </div>
