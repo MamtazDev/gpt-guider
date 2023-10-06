@@ -2,6 +2,11 @@ import Link from "next/link";
 import React from "react";
 import imageIcon from "@/assets/icons/GoogleIcon.png";
 import logo from "../assets/images/logo.svg";
+import avatar1 from "@/assets/images/Avatar1.png";
+import avatar2 from "@/assets/images/Avatar2.png";
+import avatar3 from "@/assets/images/Avatar3.png";
+import avatar4 from "@/assets/images/Avatar4.png";
+import avatar5 from "@/assets/images/Avatar5.png";
 
 const SignUpPage = () => {
   return (
@@ -9,11 +14,39 @@ const SignUpPage = () => {
       <div className="lg:col-span-4 hidden md:flex justify-center items-center">
         <div className="px-[40px]">
           <img src={logo.src} alt="" className="w-[250px] mb-5" />
-          <p className="text-lg mb-2">powerd by Gpt-3.5 & GPT-4</p>
-          <p className="text-lg mb-2">
-            we will take the part of trusted by more than 100k user in the first
-            section
-          </p>
+          <p className="text-lg mb-3">powerd by Gpt-3.5 & GPT-4</p>
+          <div className="flex gap-[12px] items-center flex-wrap">
+            <div className="flex -space-x-[12px]">
+              <img
+                className="inline-block h-[26px] w-[26px] rounded-full "
+                src={avatar1.src}
+                alt=""
+              />
+              <img
+                className="inline-block h-[26px] w-[26px] rounded-full "
+                src={avatar2.src}
+                alt=""
+              />
+              <img
+                className="inline-block h-[26px] w-[26px] rounded-full "
+                src={avatar3.src}
+                alt=""
+              />
+              <img
+                className="inline-block h-[26px] w-[26px] rounded-full "
+                src={avatar4.src}
+                alt=""
+              />
+              <img
+                className="inline-block h-[26px] w-[26px] rounded-full "
+                src={avatar5.src}
+                alt=""
+              />
+            </div>
+            <p className="text-[18px] font-[600] ">
+              Trusted by more than 100K <span className="userText">users</span>
+            </p>
+          </div>
         </div>
       </div>
       <div className="bg-white lg:col-span-3 flex justify-center items-center">
