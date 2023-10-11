@@ -206,3 +206,15 @@ body {
 .focusSubScriptionCard {
   background: linear-gradient(137deg, #00b6bd 5.28%, #acffad 95.01%);
 }
+.title {
+  color: #fff;
+  font-size: 20px !important;
+  font-weight: 400;
+}
+
+.content,
+.content a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
