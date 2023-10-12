@@ -17,36 +17,41 @@ const AboutUsPage = () => {
         please contact support with your inquiry."
       </h4>
 
-      <h3 className="text-center text-3xl font-bold my-4">
-        Contact Information:
-      </h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-[70px]">
+        <div>
+          <h3 className="text-center text-3xl font-bold my-4">
+            Contact Information:
+          </h3>
 
-      <div>
-        <p className="text-xl font-semibold mb-2">For Egypt</p>
-        <p>23 July Street, El-Bagour, Menofuia, Egypt.</p>
-        <p>Phone: +201226911067.</p>
-        <p>
-          Email: <span>support@gptguider.com.</span>
-        </p>
-        <p>
-          Gmail: <span> gptguider@gmail.com</span>
-        </p>
+          <div>
+            <p className="text-xl font-semibold mb-2">For Egypt</p>
+            <p>23 July Street, El-Bagour, Menofuia, Egypt.</p>
+            <p>Phone: +201226911067.</p>
+            <p>
+              Email: <span>support@gptguider.com.</span>
+            </p>
+            <p>
+              Gmail: <span> gptguider@gmail.com</span>
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3 className="text-center text-3xl font-bold my-4">Help</h3>
+          <p>
+            If you encounter registration or payment issues, please don't
+            hesitate to contact us for assistance. You can reach us through the
+            following methods:
+          </p>
+          <p className="text-xl font-semibold my-2">For Egypt:</p>
+          <p>Phone: +201226911067.</p>
+          <p>
+            Email: <span>support@gptguider.com.</span>
+          </p>
+          <p>
+            Gmail: <span>gptguider@gmail.com.</span>
+          </p>
+        </div>
       </div>
-
-      <h3 className="text-center text-3xl font-bold my-4">Help</h3>
-      <p>
-        If you encounter registration or payment issues, please don't hesitate
-        to contact us for assistance. You can reach us through the following
-        methods:
-      </p>
-      <p className="text-xl font-semibold my-2">For Egypt:</p>
-      <p>Phone: +201226911067.</p>
-      <p>
-        Email: <span>support@gptguider.com.</span>
-      </p>
-      <p>
-        Gmail: <span>gptguider@gmail.com.</span>
-      </p>
     </div>
   );
 };
