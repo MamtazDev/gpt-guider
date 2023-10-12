@@ -1,10 +1,11 @@
+import Main from "@/Layouts/Main";
 import React from "react";
 
 const TermsAndConditionsPage = () => {
   return (
     <div className="container mt-10">
       <h3 className="mb-4 text-3xl" style={{ fontWeight: "600" }}>
-       Terms and Conditions
+        Terms and Conditions
       </h3>
       <div className="flex flex-col items-start gap-4">
         <div className="flex flex-col items-start gap-1">
@@ -302,4 +303,5 @@ const TermsAndConditionsPage = () => {
   );
 };
 
+TermsAndConditionsPage.PageLayout = Main;
 export default TermsAndConditionsPage;
