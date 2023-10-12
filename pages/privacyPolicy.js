@@ -3,8 +3,11 @@ import React from "react";
 
 const PrivacyPolicyPage = () => {
   return (
-    <div className="container mt-10">
-      <h3 className="mb-4 text-3xl" style={{ fontWeight: "600" }}>
+    <div className="container mt-[100px] mb-[120px]">
+      <h3
+        className="mb-[50px] text-3xl text-center"
+        style={{ fontWeight: "600" }}
+      >
         Privacy Policy
       </h3>
       <div className="flex flex-col items-start gap-4">
