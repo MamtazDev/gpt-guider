@@ -24,8 +24,8 @@ const Footer = () => {
           <Link href="/" className="text-[18px] font-[700]">
             Terms
           </Link>
-          <Link href="/">Privacy Policy</Link>
-          <Link href="/">Terms and Conditions</Link>
+          <Link href="/privacyPolicy">Privacy Policy</Link>
+          <Link href="/termsAndConditions">Terms and Conditions</Link>
           <Link href="/">Copyright Policy</Link>
           <Link href="/">Security</Link>
         </div>
