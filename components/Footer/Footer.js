@@ -33,7 +33,7 @@ const Footer = () => {
           <Link href="/" className="text-[18px] font-[700]">
             Support
           </Link>
-          <Link href="/">FAQs</Link>
+          <Link href="/faq">FAQs</Link>
           <Link href="/">Contact us</Link>
           <Link href="/">Help</Link>
         </div>

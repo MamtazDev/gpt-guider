@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link href="/">Home</Link>
           <Link href="/dashboard">Features</Link>
           <Link href="/subscription">Pricing</Link>
-          <Link href="/">About us</Link>
+          <Link href="/aboutUs">About us</Link>
         </div>
         <div className="lg:flex gap-[32px] hidden">
           <button className="singInButton px-[32px] py-[14px]">
@@ -64,7 +64,7 @@ const Navbar = () => {
           <Link href="/">Home</Link>
           <Link href="/dashboard">Features</Link>
           <Link href="/subscription">Pricing</Link>
-          <Link href="/">About us</Link>
+          <Link href="/aboutUs">About us</Link>
 
           <button className="singInButton px-[32px] py-[14px] max-w-[120px] ">
             <Link href="/login">Sign in</Link>
