@@ -1,3 +1,4 @@
+import Main from "@/Layouts/Main";
 import React from "react";
 
 const PrivacyPolicyPage = () => {
@@ -302,4 +303,5 @@ const PrivacyPolicyPage = () => {
   );
 };
 
+PrivacyPolicyPage.PageLayout = Main;
 export default PrivacyPolicyPage;
